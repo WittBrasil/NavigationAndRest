@@ -1,18 +1,25 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
+// Componente que exibe um usuário em forma de card
 const UserCard = ({ user, onPress }) => {
+  // Pega o primeiro nome do usuário
+  const firstName = user.name.split(' ')[0].toLowerCase();
+  const email = `${firstName}@gmail.com`;
+  
   return (
     <TouchableOpacity onPress={onPress} style={styles.card}>
       <View style={styles.cardContent}>
         <Text style={styles.name}>{user.name}</Text>
-        <Text style={styles.email}>{user.email}</Text>
+        <Text style={styles.email}>{email}</Text>
         <Text style={styles.phone}>{user.phone}</Text>
         <Text style={styles.website}>{user.website}</Text>
       </View>
     </TouchableOpacity>
   );
 };
+
+export default UserCard;
 
 const styles = StyleSheet.create({
   card: {
@@ -49,4 +56,3 @@ const styles = StyleSheet.create({
   },
 });
 
-export default UserCard;

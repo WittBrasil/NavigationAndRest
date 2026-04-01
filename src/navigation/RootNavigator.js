@@ -23,15 +23,15 @@ const RootNavigator = () => {
         name="Home"
         component={HomeScreen}
         options={{
-          title: 'Usuários',
+          title: 'Filmes',
           headerTitleAlign: 'center',
         }}
       />
       <Stack.Screen
-        name="Details"
+        name="Detalhes"
         component={DetailsScreen}
         options={({ route }) => ({
-          title: route.params?.userName || 'Detalhes',
+          title: route.params?.titulo || 'Detalhes',
           headerTitleAlign: 'center',
         })}
       />
