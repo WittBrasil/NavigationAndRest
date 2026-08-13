@@ -1,15 +1,15 @@
-# 🎬 Buscador de Filmes
+# Buscador de Filmes
 
 Um app React Native que busca e exibe informações de filmes usando a API OMDB.
 
-## 📋 Requisitos da Atividade
+## Requisitos da Atividade
 
 ✅ Consumir dados da API OMDB  
 ✅ Exibir lista de filmes na tela principal  
 ✅ Utilizar React Navigation para navegação entre telas  
 ✅ Usar React Native Paper para estilização dos componentes  
 
-## 🚀 Como Executar
+## Como Executar
 
 ```bash
 # Instalar dependências
@@ -21,14 +21,14 @@ npm start
 
 Escaneie o QR code com o app Expo no seu celular.
 
-## 📱 Funcionalidades
+## Funcionalidades
 
-- 🔍 **Buscar filmes** - Searchbar para pesquisar qualquer filme
-- 🎬 **Lista de filmes** - Exibe grid com 10 filmes
-- 👆 **Detalhes** - Clique em um filme para ver informações
-- 🔄 **Pull-to-refresh** - Puxe a tela para atualizar
+-  **Buscar filmes** - Searchbar para pesquisar qualquer filme
+-  **Lista de filmes** - Exibe grid com 10 filmes
+-  **Detalhes** - Clique em um filme para ver informações
+-  **Pull-to-refresh** - Puxe a tela para atualizar
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - React Native
 - Expo
@@ -36,7 +36,7 @@ Escaneie o QR code com o app Expo no seu celular.
 - React Native Paper
 - OMDB API
 
-## 📂 Estrutura
+##  Estrutura
 
 ```
 src/
@@ -49,6 +49,6 @@ src/
     └── RootNavigator.js   (Configuração de navegação)
 ```
 
-## 🎓 Autora
+## Autora
 
 Trabalho acadêmico - Atividade de React Native
