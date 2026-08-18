@@ -4,10 +4,10 @@ Um app React Native que busca e exibe informações de filmes usando a API OMDB.
 
 ## Requisitos da Atividade
 
-✅ Consumir dados da API OMDB  
-✅ Exibir lista de filmes na tela principal  
-✅ Utilizar React Navigation para navegação entre telas  
-✅ Usar React Native Paper para estilização dos componentes  
+Consumir dados da API OMDB  
+Exibir lista de filmes na tela principal  
+Utilizar React Navigation para navegação entre telas  
+Usar React Native Paper para estilização dos componentes  
 
 ## Como Executar
 
